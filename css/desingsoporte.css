@@ -1,3 +1,4 @@
+/*CSS de 𝐘𝐨𝐮𝐫𝐁𝐮𝐬𝐢𝐧𝐞𝐬𝐬 © 𝟐𝟎𝟐𝟏*/
 * {
 	margin: 0;
 	padding: 0;
@@ -28,7 +29,7 @@ header .contenedor {
 header .logotipo {
 	font-family: 'Times New Roman', Times, serif;
 	font-weight: normal;
-	color: #BA3E09;
+	color: #1149AF;
 	font-size: 40px;
 }
 
@@ -49,22 +50,29 @@ header nav a.activo {
 .logotipo:hover{
     cursor: pointer;
     zoom: 103%;
-    color: red;
+    color: blue;
 }
 .nosotros1:hover{
     cursor: pointer;
     zoom: 105%;
+    color: #1149AF;
+    transition: all 0.35s;
+    position: relative;
 }
 
 .home:hover{
     cursor: pointer;
-    zoom: 105%;
+    zoom: 109%;
     position: relative;
+    color: #1149AF;
+    transition: all 0.35s;
 }
 .contacto1:hover{
     cursor: pointer;
     zoom: 105%;
     position: relative;
+    color: #1149AF;
+    transition: all 0.35s;
 }
 
 .oscuro:hover{
@@ -174,7 +182,7 @@ header nav a.activo {
 .copyright{
     color: black;
     font-family: 'Times New Roman', Times, serif;
-    margin-left: 84%;
+    margin-left: 80%;
     margin-top: 18%;
     position: absolute;
 }
@@ -302,6 +310,11 @@ header nav a.activo {
     @media only screen and (min-width: 360px) and (max-height: 640px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 3){
     /* AQUÍ ESCRIBES LOS ESTILOS CSS */
 }
+@media screen and (max-width: 800px) {
+    .left, .main, .right {
+      width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+    }
+  }
 .Español{
     color: black;
     height: 30px;

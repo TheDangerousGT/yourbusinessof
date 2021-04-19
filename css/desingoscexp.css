@@ -1,3 +1,4 @@
+/*CSS de 𝐘𝐨𝐮𝐫𝐁𝐮𝐬𝐢𝐧𝐞𝐬𝐬 © 𝟐𝟎𝟐𝟏*/
 * {
 	margin: 0;
 	padding: 0;
@@ -28,7 +29,7 @@ header .contenedor {
 header .logotipo {
 	font-family: 'Times New Roman', Times, serif;
 	font-weight: normal;
-	color: #BA3E09;
+	color: #1149AF;
 	font-size: 40px;
 }
 
@@ -61,7 +62,7 @@ background-color:  #121212;
 .logo {
     width: 150px;
     height: 130px;
-    border-radius: 50%;
+    border-radius: 10px;
     position: absolute;
     top: 140px;
     left: calc(49% - 50px);
@@ -107,52 +108,61 @@ background-color:  #121212;
 .tiempo1{
     width: 200px;
     height: 400px;
-    color: black;
+    color: white;
     margin-top: 50px;
     left: 13%;
     position: absolute  ;
     opacity: 0.9;
     border-radius: 6%;
-    background-color: white;
+    background-color: #484848;
     -webkit-box-shadow: 0px 0px 17px 0px rgba(50, 50, 50, 1);
     -moz-box-shadow:    0px 0px 17px 0px rgba(50, 50, 50, 1);
     box-shadow:         0px 0px 17px 0px rgba(50, 50, 50, 1);
     font-family: 'Times New Roman', Times, serif;
     text-align: center;
+    font-size: 19px;
+    overflow: hidden;
+    transition: all 0.25s;
 }
 
 .tiempo2{
     width: 200px;
     height: 400px;
-    color: black;
+    color: white;
     margin-top: 5px;
     left: 43%;
     position: absolute;
     opacity: 0.9;
     border-radius: 6%;
-    background-color: white;
+    background-color: #484848;
     -webkit-box-shadow: 0px 0px 17px 0px rgba(50, 50, 50, 1);
     -moz-box-shadow:    0px 0px 17px 0px rgba(50, 50, 50, 1);
     box-shadow:         0px 0px 17px 0px rgba(50, 50, 50, 1);
     font-family: 'Times New Roman', Times, serif;
     text-align:  center;
+    font-size: 20px;
+    overflow: hidden;
+    transition: all 0.25s;
 }
 
 .tiempo3{
     width: 200px;
     height: 400px;
-    color: black;
+    color: white;
     margin-top: 5px;
     left: 73%;
     position: absolute;
     opacity: 0.9;
     border-radius: 6%;
-    background-color: white;
+    background-color: #484848;
     -webkit-box-shadow: 0px 0px 17px 0px rgba(50, 50, 50, 1);
     -moz-box-shadow:    0px 0px 17px 0px rgba(50, 50, 50, 1);
     box-shadow:         0px 0px 17px 0px rgba(50, 50, 50, 1);
     font-family: 'Times New Roman', Times, serif;
     text-align: center;
+    font-size: 20px;
+    overflow: hidden;
+    transition: all 0.25s;
 }
 .tiempo1:hover {
     background-color: #1717FF;
@@ -248,34 +258,41 @@ a{
 .copyright{
     color: white;
     font-family: 'Times New Roman', Times, serif;
-    margin-left: 84%;
+    margin-left: 80%;
     margin-top: 38%;
     position: absolute;
 }
 .logo:hover{
-    cursor: pointer;
+    cursor: default;
     zoom: 105%;
   }
 
-.logotipo:hover{
+  .logotipo:hover{
     cursor: pointer;
     zoom: 103%;
-    color: red;
+    color: blue;
 }
 .nosotros1:hover{
     cursor: pointer;
     zoom: 105%;
+    color: #1149AF;
+    transition: all 0.35s;
+    position: relative;
 }
 
 .home:hover{
     cursor: pointer;
-    zoom: 105%;
+    zoom: 109%;
     position: relative;
+    color: #1149AF;
+    transition: all 0.35s;
 }
 .contacto1:hover{
     cursor: pointer;
     zoom: 105%;
     position: relative;
+    color: #1149AF;
+    transition: all 0.35s;
 }
 
 .oscuro:hover{
@@ -402,9 +419,10 @@ a{
 }
 
 .lema:hover{
-    cursor: pointer;
+    cursor: default;
     zoom: 110%;
     font-weight: bold;
+    transition: all 0.40s;
 }
 .inglés{
     color: black;
@@ -436,4 +454,87 @@ a{
     color: blue;
     zoom: 108%;
     cursor: pointer;
+}
+@media all and (max-width: 780px){
+    .tiempo1{
+        width:200px;
+        height: 400px;
+        align-items: center;
+        margin-bottom: 20%;
+        margin-left: 17%;
+        position: relative;
+    }
+}
+
+@media all and (max-width: 780px){
+    .tiempo2{
+        width:200px;
+        height: 400px;
+        margin: center;
+        margin-top: -10%;
+        left: 30%;
+        position: relative;
+    }
+}
+@media all and (max-width: 780px){
+    .tiempo3{
+        width:200px;
+        height: 400px;
+        margin: center;
+        margin-top: 20%;
+        left: 30%;
+        position: relative;
+    }
+}
+@media all and (max-width: 780px){
+    .final{
+        width: 780px;
+        height: 120px;
+        margin: center;
+        margin-top: 10%;
+        position: relative;
+    }
+}
+@media all and (max-width: 780px){
+    .copyright{
+        width:100%;
+        left: -15%;
+        margin: center;
+        margin-top: 4%;
+    }
+}
+@media all and (max-width: 780px){
+    .inglés{
+        width: 20px;
+        margin-top: 1%;
+        margin-right: 10%;
+        left: -49px;
+        margin-right: 0;
+        position: absolute;
+    }
+}
+@media all and (max-width: 780px){
+    .container{
+    margin-left: 150px;
+    margin-top: 25px;
+    }
+}
+@media all and (max-width: 780px){
+    *{
+    margin: 0%;
+    padding: 0%;
+    }
+}
+@media all and (max-width: 780px){
+    header{
+        width: 755px;
+        height: 110px;
+        margin: center;
+        position: relative;
+    }
+}
+@media all and (max-width: 780px){
+    .logo{
+    margin-left: 80px;
+    }
 }
