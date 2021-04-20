@@ -18,27 +18,28 @@
     <link  rel="icon"   href="img/LogoYBosc.png" type="404" />
   </head>
   <body>
+  <form action="explorador.html" action="explorador.html">
     <!---------------------Copyright 𝐘𝐨𝐮𝐫𝐁𝐮𝐬𝐢𝐧𝐞𝐬𝐬 © 𝟐𝟎𝟐𝟏----------------------------->
       <div class="login-box">
         <h1>Login</h1>
     <!-----------------------------Login Username------------------------------------->
         <div class="textbox">
           <i class="fas fa-user"></i>
-          <input type="text" placeholder="Username" required title="Debes completar este campo">
+          <input type="text" placeholder="Username" name="username" required title="Debes completar este campo">
         </div>
     <!--------------------------END Login Username------------------------------------->
   <!-----------------------------------Password----------------------------------------->
         <div class="textbox">
           <i class="fas fa-lock"></i>
-          <input id="contrasena" type="password" placeholder="Password" required title="Debes llenar esta casilla"/>
+          <input id="contrasena" type="password" placeholder="Password" name= "password" required title="Debes llenar esta casilla"/>
         </div>
         <div style="margin-top:15px;">
-          <input style="margin-left:20px;" type="checkbox" id="mostrar_contrasena" minlength="8">
+          <input style="margin-left:20px;" type="checkbox" id="mostrar_contrasena">
           &nbsp;&nbsp;Mostrar Contraseña</div>
   <!---------------------------------END Password--------------------------------------->
     <!----------------------------------Log In------------------------------------------>
-      <a href="/explorador.html">
-      <input type="button" class="btn" value="Sign in">
+      <a href="explorador.html">
+      <input type="submit" class="btn" value="Sign in">
       </a>
       </div>
   <!---------------------------------END Log In--------------------------------------->
@@ -60,6 +61,40 @@
       document.getElementById("demo-form").submit();
     }
   </script>
+  <script type="text/javascript">
+function validar(){
+
+
+	// Validamos los campos de input text
+	camposTexto = document.getElementById("formulario").elements; 
+
+	for (x=0; x < camposTexto.length; x++) {
+		if (camposTexto[x].value == '' && camposTexto[x].type=='text'){
+			alert("El campo " + camposTexto[x].id + " está vacio y es OBLIGATORIO");
+			return false;
+    	}    
+   }
+   
+   // Validamos si hay alguna opción marcada
+   camposCheck = document.getElementsByName("deporte");   
+   opcion = false;
+   x = 0;
+   
+   while (x<camposCheck.length && !opcion) {
+   		if (camposCheck[x].checked){
+   			opcion = true;
+   		}
+   		x++;
+   	}
+   	
+   	if (!opcion)
+   		alert("Tienes que seleccionar alguna opción");   
+
+
+}
+</script>
+  </form>
+  
   <!--------------------------------------------------------------------------------->
   </body>
 </html>
