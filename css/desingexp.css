@@ -226,7 +226,7 @@ button:hover{
 .final{
     background-color: black;
     height: 50%;
-    margin-top: 40%;
+    margin-top: 55%;
 }
 
 a{
@@ -271,7 +271,7 @@ a{
     color: black;
     font-family: 'Times New Roman', Times, serif;
     margin-left: 80%;
-    margin-top: 38%;
+    margin-top: 55%;
     position: absolute;
 }
 .logo:hover{
@@ -580,5 +580,17 @@ font[Attributes] {
     position: relative;
     align-items: center;
     left: 10px;
+    }
+}
+.carousel{
+    margin-top: 350px;
+    position: absolute;
+    margin-left: 300px;
+}
+@media all and (max-width: 780px){
+    .carousel{
+        margin-top: 100px;
+        position: absolute;
+        margin-left: 100px;
     }
 }
