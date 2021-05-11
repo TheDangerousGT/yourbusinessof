@@ -18,29 +18,30 @@
     <link  rel="icon"   href="img/LogoYBosc.png" type="404" />
   </head>
   <body>
-  <form action="explorador.html" action="explorador.html">
+  <form action="welcome.php" method="post">
     <!---------------------Copyright 𝐘𝐨𝐮𝐫𝐁𝐮𝐬𝐢𝐧𝐞𝐬𝐬 © 𝟐𝟎𝟐𝟏----------------------------->
       <div class="login-box">
         <h1>Login</h1>
     <!-----------------------------Login Username------------------------------------->
         <div class="textbox">
           <i class="fas fa-user"></i>
-          <input type="text" placeholder="Username" name="username" required title="Debes completar este campo">
+          <input type="text" placeholder="Username" name="user" required title="Debes completar este campo">
         </div>
     <!--------------------------END Login Username------------------------------------->
   <!-----------------------------------Password----------------------------------------->
         <div class="textbox">
           <i class="fas fa-lock"></i>
-          <input id="contrasena" type="password" placeholder="Password" name= "password" required title="Debes llenar esta casilla"/>
+          <input id="contrasena" type="password" placeholder="Password" name= "contra" required title="Debes llenar esta casilla"/>
         </div>
         <div style="margin-top:15px;">
           <input style="margin-left:20px;" type="checkbox" id="mostrar_contrasena">
           &nbsp;&nbsp;Mostrar Contraseña</div>
   <!---------------------------------END Password--------------------------------------->
     <!----------------------------------Log In------------------------------------------>
-      <a href="explorador.html">
+      <a href="welcome.php">
       <input type="submit" class="btn" value="Sign in">
       </a>
+      ¿No tienes una cuenta?<a href="servidor/signup.php" class="link-primary"> Registrate</a>
       </div>
   <!---------------------------------END Log In--------------------------------------->
     <!---------------------Copyright 𝐘𝐨𝐮𝐫𝐁𝐮𝐬𝐢𝐧𝐞𝐬𝐬 © 𝟐𝟎𝟐𝟏----------------------------->
@@ -94,7 +95,6 @@ function validar(){
 }
 </script>
   </form>
-  
   <!--------------------------------------------------------------------------------->
   </body>
 </html>
