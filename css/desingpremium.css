@@ -1,0 +1,202 @@
+/*CSS de 𝐘𝐨𝐮𝐫𝐁𝐮𝐬𝐢𝐧𝐞𝐬𝐬 © 𝟐𝟎𝟐𝟏*/
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body {
+	background-color: white;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.contenedor {
+	width: 90%;
+	margin: auto;
+}
+
+header {
+	padding: 30px 0;
+    background-color: black;
+}
+
+header .contenedor {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+header .logotipo {
+	font-family: 'Times New Roman', Times, serif;
+	font-weight: normal;
+	color: #1149AF;
+	font-size: 40px;
+}
+
+header nav a {
+	color: #FFF;
+	text-decoration: none;
+	margin-right: 20px;
+}
+
+header nav a:hover,
+header nav a.activo {
+	color: #FFF;
+}
+
+.contacto1{
+    color: white;
+}
+
+.oscuro{
+    width: 30px;
+    height: 30px;
+}
+.logo:hover{
+    cursor: default;
+    zoom: 105%;
+    transition: all 0.40s;
+  }
+
+.logotipo:hover{
+    cursor: pointer;
+    zoom: 103%;
+    color: blue;
+}
+.nosotros1:hover{
+    cursor: pointer;
+    zoom: 105%;
+    color: #1149AF;
+    transition: all 0.35s;
+    position: relative;
+}
+
+.home:hover{
+    cursor: pointer;
+    zoom: 109%;
+    position: relative;
+    color: #1149AF;
+    transition: all 0.35s;
+}
+.contacto1:hover{
+    cursor: pointer;
+    zoom: 105%;
+    position: relative;
+    color: #1149AF;
+    transition: all 0.35s;
+}
+
+.oscuro:hover{
+    cursor: pointer;
+    zoom: 105%;
+    position: relative;
+}
+
+.plan1{
+    width: 250px;
+    height: 400px;
+    color: black;
+    margin-top: 50px;
+    left: 13%;
+    position: absolute  ;
+    opacity: 0.9;
+    border-radius: 20px;
+    background-color: white;
+    -webkit-box-shadow: 0px 0px 17px 0px rgba(50, 50, 50, 1);
+    -moz-box-shadow:    0px 0px 17px 0px rgba(50, 50, 50, 1);
+    box-shadow:         0px 0px 17px 0px rgba(50, 50, 50, 1);
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    overflow: hidden;
+    transition: all 0.40s;
+}
+
+.plan2{
+    width: 250px;
+    height: 400px;
+    color: black;
+    margin-top: 5px;
+    left: 43%;
+    position: absolute;
+    opacity: 0.9;
+    border-radius: 6%;
+    background-color: white;
+    -webkit-box-shadow: 0px 0px 17px 0px rgba(50, 50, 50, 1);
+    -moz-box-shadow:    0px 0px 17px 0px rgba(50, 50, 50, 1);
+    box-shadow:         0px 0px 17px 0px rgba(50, 50, 50, 1);
+    font-family: 'Times New Roman', Times, serif;
+    text-align:  center;
+    overflow: hidden;
+    transition: all 0.40s;
+}
+
+.desc{
+    font-size: 25px;
+}
+
+.info1{
+    margin-top: -30px;
+    font-size: 30px; 
+}
+
+.plan3{
+    width: 250px;
+    height: 400px;
+    color: black;
+    margin-top: 5px;
+    left: 73%;
+    position: absolute;
+    opacity: 0.9;
+    border-radius: 6%;
+    background-color: white;
+    -webkit-box-shadow: 0px 0px 17px 0px rgba(50, 50, 50, 1);
+    -moz-box-shadow:    0px 0px 17px 0px rgba(50, 50, 50, 1);
+    box-shadow:         0px 0px 17px 0px rgba(50, 50, 50, 1);
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    overflow: hidden;
+    transition: all 0.40s;
+}
+
+.plan1:hover {
+    background-color: #1717FF;
+    color: white;
+    cursor: pointer;
+    zoom: 105%;
+  }
+
+.plan2:hover {
+    background-color: #1717ff;
+    color: white;
+    cursor: pointer;
+    zoom: 105%;
+  }
+.plan3:hover {
+    background-color: #1717FF;
+    color: white;
+    cursor: pointer;
+    zoom: 105%;
+  }
+
+  h2{
+      background-color: #3431ee;
+      top: 20px;
+  }
+
+  .plan11{
+      background-color: #3431ee;
+      height: 50px;
+      text-align: center;
+      border-bottom: black 6px;
+  }
+
+  .plan11:hover{
+    color: white;
+    border-bottom: black;
+}
+
+hr{
+    background-color: black;
+}
