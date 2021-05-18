@@ -133,6 +133,7 @@ header nav a.activo {
 
 .Usuario{
     margin-left:40%;
+    margin-top: -30px;
 }
 
 .ingus{
@@ -366,4 +367,24 @@ a{
     color: blue;
     zoom: 105%;
     cursor: pointer;
+}
+
+input .form-control{
+    position: absolute;
+    margin-left: 200px;
+}
+
+.tunombre{
+    position: absolute;
+    border-color: deepskyblue;
+    width: 250px;
+    height: 40px;
+    border-radius: 5px;
+    margin-top: -38px;
+    margin-left: 900px;
+}
+
+.tunombre:focus{
+    outline: 5px;
+    border: 1px solid #97d848;
 }

@@ -1,15 +1,15 @@
 /*CSS de 𝐘𝐨𝐮𝐫𝐁𝐮𝐬𝐢𝐧𝐞𝐬𝐬 © 𝟐𝟎𝟐𝟏*/
 * {
-    margin: 0;
-    padding: 0;
-    text-decoration: none;
-    list-style: none;
-    box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
 
 body {
-	background-color: white;
+	background-color:  white;
 	font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 .contenedor {
@@ -46,16 +46,12 @@ header nav a.activo {
 	color: #FFF;
 }
 
-.contacto1{
-    color: white;
-}
-
 .container{
-    background-color: white;
+    background-color:  white;
 
 }
 .Nombre{
-    color: black;
+    color: white;
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
@@ -63,12 +59,12 @@ header nav a.activo {
 }
 
 main{
-background-color: white;
+background-color:  white;
 }
 .logo {
-    width: 160px;
+    width: 150px;
     height: 130px;
-    border-radius: 8px;
+    border-radius: 10px;
     position: absolute;
     top: 140px;
     left: calc(49% - 50px);
@@ -80,17 +76,18 @@ background-color: white;
       margin-right: 25%;
       font-size: 20px;
       font-family: 'Times New Roman', Times, serif;
-    
+      color: black;
+      margin-top: -30px;
   }
 
   .lema{
     text-align: center;
-    margin-left: 36.5%;
+    margin-left: 25%;
     margin-right: 25%;
     font-family: 'Times New Roman', Times, serif;
     font-style: oblique;
     font-weight: bold;
-    position: absolute;
+    color: black;
   }
   @media screen and (max-device-width : 480px) {
 
@@ -104,12 +101,7 @@ background-color: white;
 }
 
 .info1{
-    font-weight: bold;  
-    font-size: 25px;
-}
-.desc{
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 17px;
+    font-weight: bold;
 }
 
 .pasatiempo1{
@@ -124,18 +116,16 @@ background-color: white;
     left: 13%;
     position: absolute  ;
     opacity: 0.9;
-    border-radius: 20px;
+    border-radius: 6%;
     background-color: white;
     -webkit-box-shadow: 0px 0px 17px 0px rgba(50, 50, 50, 1);
     -moz-box-shadow:    0px 0px 17px 0px rgba(50, 50, 50, 1);
     box-shadow:         0px 0px 17px 0px rgba(50, 50, 50, 1);
     font-family: 'Times New Roman', Times, serif;
     text-align: center;
+    font-size: 19px;
     overflow: hidden;
-    transition: all 0.40s;
-}
-div{
-    display: block;
+    transition: all 0.25s;
 }
 
 .tiempo2{
@@ -153,8 +143,9 @@ div{
     box-shadow:         0px 0px 17px 0px rgba(50, 50, 50, 1);
     font-family: 'Times New Roman', Times, serif;
     text-align:  center;
+    font-size: 20px;
     overflow: hidden;
-    transition: all 0.40s;
+    transition: all 0.25s;
 }
 
 .tiempo3{
@@ -172,28 +163,28 @@ div{
     box-shadow:         0px 0px 17px 0px rgba(50, 50, 50, 1);
     font-family: 'Times New Roman', Times, serif;
     text-align: center;
+    font-size: 20px;
     overflow: hidden;
-    transition: all 0.40s;
+    transition: all 0.25s;
 }
-
 .tiempo1:hover {
     background-color: #1717FF;
     color: white;
     cursor: pointer;
-    zoom: 105%;
+    zoom: 110%;
   }
 
 .tiempo2:hover {
     background-color: #1717FF;
     color: white;
     cursor: pointer;
-    zoom: 105%;
+    zoom: 110%;
   }
 .tiempo3:hover {
     background-color: #1717FF;
     color: white;
     cursor: pointer;
-    zoom: 105%;
+    zoom: 110%;
   }
 
 .contacto{
@@ -268,19 +259,18 @@ a{
 }
 
 .copyright{
-    color: black;
+    color: white;
     font-family: 'Times New Roman', Times, serif;
     margin-left: 80%;
-    margin-top: 55%;
+    margin-top: 38%;
     position: absolute;
 }
 .logo:hover{
     cursor: default;
     zoom: 105%;
-    transition: all 0.40s;
   }
 
-.logotipo:hover{
+  .logotipo:hover{
     cursor: pointer;
     zoom: 103%;
     color: blue;
@@ -317,24 +307,21 @@ a{
 .instagram:hover{
     cursor: pointer;
     zoom: 108%;
-    transition: all 0.35s;
 }
 
 .facebook:hover{
-    cursor: no-drop;
+    cursor: pointer;
     zoom: 108%;
-    transition: all 0.35s;
 }
 
 .twitter:hover{
     cursor: pointer;
     zoom: 108%;
-    transition: all 0.35s;
 }
 
 /* Smartphones (horizontal) ----------- */
 @media only screen and (min-width : 321px) {
-
+    /* AQUÍ ESCRIBES LOS ESTILOS CSS */
     }
     
     /* Smartphones (vertical) ----------- */
@@ -377,6 +364,7 @@ a{
     }
     
     @media only screen and (min-width : 320px) and (max-width : 480px) and (orientation : portrait) and (-webkit-min-device-pixel-ratio : 2) {
+    /* AQUÍ ESCRIBES LOS ESTILOS CSS */
     }
     
     /* iPhone 5 ----------- */
@@ -439,7 +427,6 @@ a{
     font-weight: bold;
     transition: all 0.40s;
 }
-
 .inglés{
     color: black;
     height: 30px;
@@ -471,19 +458,14 @@ a{
     zoom: 108%;
     cursor: pointer;
 }
-font[Attributes] {
-    color: rgb(255, 255, 255);
-}
-
 @media all and (max-width: 780px){
     .tiempo1{
         width:200px;
-        height: 500px;
+        height: 400px;
         align-items: center;
         margin-bottom: 20%;
         margin-left: 17%;
         position: relative;
-        margin-top: 10px;
     }
 }
 
@@ -519,27 +501,25 @@ font[Attributes] {
 @media all and (max-width: 780px){
     .copyright{
         width:100%;
-        left: -35%;
+        left: -15%;
         margin: center;
-        margin-top: 5%;
-        margin-bottom: 1%;
+        margin-top: 4%;
     }
 }
 @media all and (max-width: 780px){
     .inglés{
-        width: 7%;
+        width: 20px;
         margin-top: 1%;
-        margin-right: 20%;
-        left: -610px;
+        margin-right: 10%;
+        left: -49px;
         margin-right: 0;
         position: absolute;
     }
 }
 @media all and (max-width: 780px){
     .container{
-    margin-left: 180px;
+    margin-left: 150px;
     margin-top: 25px;
-    align-items: center;
     }
 }
 @media all and (max-width: 780px){
@@ -550,7 +530,7 @@ font[Attributes] {
 }
 @media all and (max-width: 780px){
     header{
-        width: 780px;
+        width: 755px;
         height: 110px;
         margin: center;
         position: relative;
@@ -558,39 +538,32 @@ font[Attributes] {
 }
 @media all and (max-width: 780px){
     .logo{
-    left: 315px;
+    margin-left: 80px;
     }
 }
-@media all and (max-width: 780px){
-    .portafolio{
-    margin-left: -100px;
-    margin-top: 35px;
-    width: 600px;
-    height: auto;
-    }
-}
-@media all and (max-width: 780px){
-    .info{
-    height: 100px;
-    }
-}
-@media all and (max-width: 780px){
-    .lema{
-    margin-top: 200px;
-    position: relative;
-    align-items: center;
-    left: 10px;
-    }
-}
-.carousel{
-    margin-top: 350px;
+.container1{
+    margin-top: 50px;
+    margin-bottom: 10%;
     position: absolute;
-    left: 430px;
 }
-@media all and (max-width: 780px){
-    .carousel{
-        margin-top: 100px;
-        position: absolute;
-        margin-left: 100px;
-    }
+.overlay {
+	background: rgba(0,0,0,.3);
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	align-items: center;
+	justify-content: center;
+	display: flex;
+	visibility: hidden;
+}
+
+.container1{
+    margin-top: 360px;
+    margin-bottom: 25%;
+    margin-left: 300px;
+}
+.btn-success{
+    left: 1000px;
 }

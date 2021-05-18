@@ -90,66 +90,127 @@ header nav a.activo {
     font-weight: bold;
 }
 
-.aviso{
-    margin-top: 4%;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 20px;
-    color: white;
-    font-style: italic;
-    text-align: center;
-}
-.aviso1{
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 20px;
-    color: white;
-    font-weight: lighter;
-    text-align: center;
-}
-.aviso2{
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 20px;
-    color: white;
-    font-weight: lighter;
-    text-align: center;
-}
-
-.discord{
-    margin-top: 2%;
-    margin-left: 49%;
-    width: 30px;
-    height: 30px;
-}
-.discord:hover{
+.contactoform{  
+    width: 460px; 
+    height: auto;
+    margin: 80px auto;
+    border-radius: 10px;  
+    padding-top: 30px;
+    padding-bottom: 20px;  
+    background-color: #20065c; 
+    padding-left: 30px; 
+  }
+  
+  
+  input{
+    background-color: #fbfbfb; 
+    width: 408px; 
+    height: 40px; 
+    border-radius: 5px;  
+    border-style: solid; 
+    border-width: 1px; 
+    border-color: #00e1ff; 
+    margin-top: 10px;  
+    padding-left: 10px;
+    margin-bottom: 20px; 
+  }
+  
+  
+  textarea{
+    background-color: #fbfbfb; 
+    width: 405px; 
+    height: 150px; 
+    border-radius: 5px;  
+    border-style: solid; 
+    border-width: 1px; 
+    border-color: #00e1ff; 
+    margin-top: 10px;  
+    padding-left: 10px;
+    margin-bottom: 20px; 
+    padding-top: 15px; 
+  }
+  
+  
+  label{
+    display: block; 
+    float: center;  
+  }
+  
+  
+  button{
+    height: 45px; 
+    padding-left: 5px;
+    padding-right: 5px;   
+    margin-bottom: 20px; 
+    margin-top: 10px;   
+    text-transform: uppercase;
+    background-color: #1900ff; 
+    border-color: #000000; 
+    border-style: solid; 
+    border-radius: 10px;  
+    width: 420px;   
     cursor: pointer;
-    background-image: url(../img/discordlogo.gif);
-    height: 40px;
-    width: 40px;
-    zoom: 110%;
-}
-.gmail1{
-    margin-top: 2%;
-    margin-left: 49%;
-    width: 30px;
-    height: 30px;
-}
-.gmail1:hover{
-    cursor: pointer;
-    background-image: url(../img/discordlogo.gif);
-    height: 40px;
-    width: 40px;
-    zoom: 110%;
-}
-
-.soportito{
-    background-color:#121212;
-    display: flex;
-	justify-content: space-between;
-	align-items: center;
-    margin-right: 43%;
-    margin-left: 43%;
-    height: 30%;
-    margin-top: 3%;
-}
+  }
+  
+  
+  button p{
+    color: #fff; 
+  }
+  
+  
+  span{
+    color: red; 
+  }
+  
+  
+  .aviso{
+    font-size: 13px;  
+    color: #0e0e0e;  
+  }
+  
+  
+  h1{
+    font-size: 39px;  
+    text-align: letf; 
+    padding-bottom: 20px; 
+    color: white;
+    font-weight: bold;
+  }
+  
+  
+  h3{
+    font-size: 16px; 
+    padding-bottom: 30px;
+    color: #ffffff;   
+  }
+  
+  
+  p{
+    font-size: 14px; 
+    color: white; 
+  }
+  
+  
+  ::-webkit-input-placeholder {
+   color: #a8a8a8;
+  }
+  
+  
+  ::-webkit-textarea-placeholder {
+   color: #a8a8a8;
+  }
+  
+  
+  .formulario input:focus{
+    outline:0;
+    border: 1px solid #97d848;
+  }
+  
+  
+  .formulario textarea:focus{
+    outline:0;
+    border: 1px solid #97d848;
+  }
 
 .instagram {
     width: 30px;
@@ -158,7 +219,16 @@ header nav a.activo {
     margin-top: 1%;
     object-position: right;
 } 
-
+.aviso1{
+  color: #fff;
+  text-align: center;
+  font-size: 18px;
+}
+.aviso2{
+  color: #fff;
+  text-align: center;
+  font-size: 18px;
+}
 .twitter {
     width: 30px;
     height: 30px;
@@ -182,9 +252,10 @@ header nav a.activo {
 .copyright{
     color: white;
     font-family: 'Times New Roman', Times, serif;
-    margin-left: 85%;
-    margin-top: 18%;
+    margin-left: 83%;
+    margin-top: 13%;
     position: absolute;
+    font-size: 20px;
 }
 .instagram:hover{
     cursor: pointer;
